@@ -1,0 +1,63 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+html {height:100%;}
+
+body {padding:0;height: 100%;}
+
+.wbc-slider {background:red;}
+
+.wbc-main {padding:0;height:100%;}
+
+.wbc-left, .wbc-right {padding:0;height:100%;}
+
+.wbc-left {background:red;}
+
+.wbc-right {}
+
+.navbar {margin-bottom:0;}
+
+.navbar-fixed-top, .navbar-fixed-bottom {position:relative;height:100%;}
+
+.navbar-nav {clear:both;}
+
+.navbar-nav>li {clear:both;}
+
+.copyright {clear:both;}
+
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media screen and (max-width: 768px) {
+	.jumbotron h1 {color:red;} 
+	.navbar-fixed-top, .navbar-fixed-bottom {height:auto;}
+	.wbc-left, .wbc-right {height:auto;}
+	.copyright {display:none;}
+}
+
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width: 1200px) {}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
